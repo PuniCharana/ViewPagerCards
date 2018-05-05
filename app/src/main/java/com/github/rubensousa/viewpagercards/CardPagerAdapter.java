@@ -21,6 +21,11 @@ public class CardPagerAdapter extends PagerAdapter implements CardAdapter {
         mViews = new ArrayList<>();
     }
 
+    @Override
+    public int getCount() {
+        return mData.size();
+    }
+
     public void addCardItem(CardItem item) {
         mViews.add(null);
         mData.add(item);
@@ -36,7 +41,7 @@ public class CardPagerAdapter extends PagerAdapter implements CardAdapter {
     }
 
     @Override
-    public int getCount() {
+    public int getCardCount() {
         return mData.size();
     }
 
@@ -57,7 +62,7 @@ public class CardPagerAdapter extends PagerAdapter implements CardAdapter {
             mBaseElevation = cardView.getCardElevation();
         }
 
-        cardView.setMaxCardElevation(mBaseElevation * MAX_ELEVATION_FACTOR);
+        cardView.setMaxCardElevation(mBaseElevation * Companion.getMAX_ELEVATION_FACTOR());
         mViews.set(position, cardView);
         return view;
     }
@@ -69,6 +74,7 @@ public class CardPagerAdapter extends PagerAdapter implements CardAdapter {
     }
 
     private void bind(CardItem item, View view) {
+
         TextView titleTextView = (TextView) view.findViewById(R.id.titleTextView);
         TextView contentTextView = (TextView) view.findViewById(R.id.contentTextView);
         titleTextView.setText(item.getTitle());

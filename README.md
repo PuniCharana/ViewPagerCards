@@ -7,11 +7,15 @@ This is just a sample project.
 
 There's support included for Fragments and normal Views. Check the CardPagerAdapter and CardFragmentPagerAdapter classes.
 
-**Left** - Duolingo implementation
+**Duolingo implementation**
 
-**Right** - This sample
 
-<img src="https://rubensousa.github.io/img/duolingo_viewpager.gif" width=300></img> <img src="https://rubensousa.github.io/img/viewpager_result.gif" width=300></img>
+<img src="https://rubensousa.github.io/img/duolingo_viewpager.gif" width=300></img> 
+    
+
+**This sample**
+ 
+<img src="https://rubensousa.github.io/img/viewpager_result.gif" width=300></img>
 
 
 **What you could do with this:**
