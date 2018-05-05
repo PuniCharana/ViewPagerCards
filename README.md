@@ -1,7 +1,11 @@
 # ViewPagerCards
 ViewPager cards inspired by Duolingo
 
-From my blog post: https://rubensousa.github.io/2016/08/viewpagercards
+This is a Kotlin version of **ViewPagerCards**
+
+**Oroginal Repo:** https://github.com/rubensousa/ViewPagerCards
+
+For more see Rúben Sousa blog post: https://rubensousa.github.io/2016/08/viewpagercards
 
 This is just a sample project.
 
@@ -27,7 +31,7 @@ There's support included for Fragments and normal Views. Check the CardPagerAdap
 
 ## License
 
-    Copyright 2016 Rúben Sousa
+    Copyright 2018 Puni Charana
     
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
